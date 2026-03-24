@@ -4,7 +4,6 @@ curl -sSL https://get.docker.com | sh
 echo 'Enabling docker\n'
 sudo systemctl enable docker
 sudo systemctl start docker
-sudo docker pull dhrone/pydpiper:v0.31-alpha
-
+sudo docker pull synoniem/pydPiper3
 echo 'Testing docker\n'
 sudo docker run -rm hello-world
