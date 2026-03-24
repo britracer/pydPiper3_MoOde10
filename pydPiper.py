@@ -12,11 +12,6 @@ from sources import musicdata_mpd, musicdata_spop, musicdata_volumio2, musicdata
 import pydPiper_config
 import pause
 
-#try:
-#    import pyowm
-#except ImportError:
-#    pass
-
 
 exitapp = [ False ]
 
